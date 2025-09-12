@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+    
+    <title>Application Submitted</title>
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        padding: 60px 20px;
+        background-color: #fff;
+      }
+
+      .logo {
+        margin-bottom: 24px;
+      }
+
+      h1 {
+        font-size: 26px;
+        color: #101114;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #4c4e52;
+        max-width: 500px;
+        margin: 20px auto;
+      }
+
+      .progress-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+      }
+
+      .progress-bar {
+        position: relative;
+        width: 410px;
+        height: 8px;
+        background-color: #ebebed;
+        border-radius: 5px;
+      }
+
+      .progress-fill {
+        width: 50%;
+        height: 100%;
+        background-color: #eb4e2c;
+        border-radius: 5px 0 0 5px;
+      }
+
+      .progress-step {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        color: #666;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .progress-step span {
+        display: inline-block;
+        margin: 12px 0;
+        font-size: 12px;
+        font-weight: 400;
+        color: #6c6d73;
+      }
+      .progress-step span.active {
+        color: #101114;
+      }
+      .circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 24px;
+        width: 24px;
+      }
+
+      .check-circle {
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #eb4e2c;
+        border: 1px solid #fff;
+        box-sizing: border-box;
+        border-radius: 50%;
+        color: #fff;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .check-circle-right {
+        position: absolute;
+        top: -10px;
+        right: 0;
+        transform: translateX(50%);
+        background-color: #fff;
+        border: 1px solid #ebebed;
+        box-sizing: border-box;
+        border-radius: 50%;
+      }
+
+      .catalog-button {
+        max-width: 205px;
+        width: 100%;
+        height: 48px;
+        box-sizing: border-box;
+        padding: 12px 28px;
+        margin: 32px auto;
+        font-size: 16px;
+        background-color: #eb4e2c;
+        color: #fff;
+        border: none;
+        border-radius: 9999px;
+        cursor: pointer;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo">
+     <img src="image (10).png"/>
+    </div>
+
+    <h1> Request sent!</h1>
+    <p>
+      Applications are typically processed within 1-2 business days. You'll be
+      notified by email. Once approved,New billing address will appear in the list.
+    </p>
+
+    <div class="progress-container">
+      <div class="progress-bar">
+        <div class="progress-fill"></div>
+        <div class="circle check-circle">
+          <svg
+            width="11"
+            height="10"
+            viewBox="0 0 11 10"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.2984 1L4.05515 8.6L0.743164 5.26928"
+              stroke="white"
+              stroke-width="1.4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <div class="circle check-circle-right">
+          <svg
+            width="11"
+            height="10"
+            viewBox="0 0 11 10"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.2984 1L4.05515 8.6L0.743164 5.26928"
+              stroke="#6C6D73"
+              stroke-width="1.4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="progress-step">
+      <span class="active">Request Sent!</span>
+      <span>Verification in progress</span>
+    </div>
+
+    
+  </body>
+</html>
